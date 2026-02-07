@@ -15,7 +15,6 @@ My name is Gabriel Veras, I was born in Recife, Brazil and I am a bachelor in Ch
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/gabriel-chaves-veras" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="gabriel-chaves-veras" height="30" width="40" /></a>
-<a href="https://dev.to/gabverz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="gabverz" height="30" width="40" /></a>
 
 ---
 </p>
