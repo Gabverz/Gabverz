@@ -1,10 +1,29 @@
 <h1 align="center">Gabriel Veras</h1>
-<h3 align="center">Data Scientist</h3>
+<h3 align="center">Data Scientist & ML Engineer 🚀</h3>
 
-Hello! Thank you for acessing my GitHub.
+Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in Recife, Brazil and I am a bachelor in Chemical Engineering. After 7 years acting in multi-national companies in this field, I have decided to pursue my goal to be a Data Scientist. I wish to bring my engineering and corporate background into generating value for people all over the world. Please, feel free to add to the projects here!
 
-My name is Gabriel Veras, I was born in Recife, Brazil and I am a bachelor in Chemical Engineering. After 7 years acting in multi-national companies in this field, I have decided to pursue my goal to be a Data Scientist. I wish to bring my engineering and corporate background into generating value for people all over the world. Please, feel free to add to the projects here!
+📊 About Me
 
+ Highly analytical and detail-oriented Data Scientist with a strong foundation in Machine Learning, Statistical Analysis, and Data Security. I specialize in building end-to-end pipelines—from messy data preprocessing to high-performance predictive models—with a focus on driving operational efficiency and business value. 
+
+---
+
+### 🛠 Technical Core Competencies
+
+🤖 **Machine Learning & Predictive Modeling:** Implementing advanced algorithms (CatBoost, LightGBM, Random Forest) to forecast trends and optimize processes.
+
+🔍 **Exploratory Data Analysis:** Uncovering hidden patterns, correlations, and anomalies through rigorous data investigation.
+
+🛠️ **Data Preprocessing & Feature Engineering:** Transforming raw, fragmented datasets into high-quality features through aggregation, scaling, and temporal variable creation.
+
+📈 **Data Visualization:** Crafting intuitive dashboards and plots (Matplotlib, Seaborn, Streamlit) to translate complex metrics into actionable insights.
+
+🛡️ **Data Security & Integrity:** Ensuring robust data handling practices, maintaining privacy, and verifying dataset reliability.
+
+🔢 **Applied Statistics:** Utilizing hypothesis testing, probability distributions, and regression metrics (such as $R^2$, $MAE$, and $RMSE$) to validate model performance.
+
+---
 
 - 👨‍💻 All of my projects are available at [https://github.com/Gabverz](https://github.com/Gabverz)
 
