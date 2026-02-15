@@ -155,9 +155,11 @@ Direct link: [Temperature_prediction_modelling](https://github.com/Gabverz/Tempe
 <details>
 <summary>Video Game Market Analysis</summary>
 
+### Video Game Market Analysis
+
 Direct link: [Videogame_market_datadriven_decision](https://github.com/Gabverz/Videogame_market_datadriven_decision)
 
-## Step-by-Step Execution
+#### Step-by-Step Execution
 
 1. **Data Preprocessing & Feature Engineering** - *Missing value treatment (1.6% year_of_release removal), data type conversion, column standardization (snake_case), total_sales calculation, critic_score normalization*
 
@@ -169,7 +171,7 @@ Direct link: [Videogame_market_datadriven_decision](https://github.com/Gabverz/V
 
 5. **Statistical Hypothesis Testing** - *Two-sample t-tests implementation, Xbox One vs PC user ratings comparison, Action vs Sports genre ratings analysis, statistical significance evaluation (α=0.05)*
 
-## Main Libraries Used
+#### Main Libraries Used
 
 - **pandas**: Data manipulation and comprehensive dataset analysis
 - **numpy**: Numerical operations and statistical calculations
@@ -178,6 +180,38 @@ Direct link: [Videogame_market_datadriven_decision](https://github.com/Gabverz/V
 
 </details>
 
-<summary>3333333333</summary>
+<details>
+<summary>Taxi Demand Prediction</summary>
 
-Direct link: [Videogame_market_datadriven_decision](https://github.com/Gabverz/Videogame_market_datadriven_decision)
+Direct link: [Taxi_demandbyhour_forecast](https://github.com/Gabverz/Taxi_demandbyhour_forecast)
+
+### Taxi Demand Prediction - Sweet Lift Taxi Company
+
+#### Step-by-Step Execution
+
+1. **Data Preprocessing & Time Series Preparation** - *CSV data loading with datetime indexing, hourly resampling using sum aggregation, data sorting and formatting, missing value assessment, statistical summary analysis*
+
+2. **Exploratory Data Analysis & Seasonality Detection** - *Rolling mean calculation (24-hour window), seasonal decomposition analysis, trend identification, seasonality pattern recognition, residual analysis for time series components*
+
+3. **Feature Engineering & Lag Variables Creation** - *Datetime feature extraction (year/month/day/hour/dayofweek), lag feature creation (1-9 periods), rolling statistics computation, feature matrix preparation for ML models*
+
+4. **Model Training & Hyperparameter Optimization** - *Linear Regression baseline, CatBoost iterations tuning (100-1000), LightGBM parameter optimization (num_leaves: 20-60, num_rounds: 100-300), early stopping implementation*
+
+5. **Model Evaluation & Performance Comparison** - *RMSE/MSE calculation, R² score assessment, execution time measurement, best model selection based on performance metrics, final predictions validation*
+
+#### Main Libraries Used
+
+- **pandas**: Time series data manipulation and resampling operations
+- **numpy**: Numerical computations and statistical calculations
+- **matplotlib**: Time series visualization and trend plotting
+- **statsmodels**: Seasonal decomposition and time series analysis
+- **scikit-learn**: Train-test split, evaluation metrics, and Linear Regression
+- **catboost**: Gradient boosting regression with categorical features support
+- **lightgbm**: Advanced gradient boosting with early stopping mechanisms
+
+</details>
+
+<details>
+<summary>44444444444</summary>
+
+Direct link: [Taxi_demandbyhour_forecast](https://github.com/Gabverz/Taxi_demandbyhour_forecast)
