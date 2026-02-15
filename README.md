@@ -1,5 +1,5 @@
 <h1 align="center">Gabriel Veras</h1>
-<h3 align="center">Data Scientist & ML Engineer 🚀</h3>
+<h3 align="center">Data Scientist & Machine Learning Engineer 🚀</h3>
 
 Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in Recife, Brazil and I am a bachelor in Chemical Engineering. After 7 years acting in multi-national companies in this field, I have decided to pursue my goal to be a Data Scientist. I wish to bring my engineering and corporate background into generating value for people all over the world. Please, feel free to add to the projects here!
 
