@@ -5,7 +5,7 @@ Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in
 
 📊 About Me
 
- Highly analytical and detail-oriented Data Scientist with a strong foundation in Machine Learning, Statistical Analysis, and Data Security. I specialize in building end-to-end pipelines—from messy data preprocessing to high-performance predictive models—with a focus on driving operational efficiency and business value. 
+ Highly analytical and detail-oriented Data Scientist with a strong foundation in Python, Machine Learning and Statistical Analysis. I specialize in building end-to-end pipelines—from messy data preprocessing to high-performance predictive models—with a focus on driving operational efficiency and business value. 
 
 ---
 
