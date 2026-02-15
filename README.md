@@ -38,7 +38,7 @@ Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in
 ---
 </p>
 <h3 align="left">Languages and Tools:</h3>
-
+<p
 <img
   align="left"
   alt="Python"
@@ -111,3 +111,39 @@ Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in
   style="padding-right: 10px;"
   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/minitab/minitab-plain.svg"
 />
+</p>
+<br>
+
+---
+
+### Where to start?
+
+I would suggest these few projects to start. Bellow, there is a brief step-by-step of the solution.
+
+<details>
+<summary>Temperature prediction modelling</summary>
+  
+<br>
+  
+###  Steel Temperature Prediction - Industrial Process Optimization
+
+#### Step-by-Step Execution
+
+1. **Data Integration & Feature Engineering** - *Multi-dataset merging (7 sources), statistical aggregation (mean/max/min/sum), energy consumption calculations using physics formulas, time-series feature extraction*
+
+2. **Exploratory Data Analysis** - *Outlier detection using boxplots/histograms, distribution analysis, data quality assessment, missing value pattern identification, correlation analysis between process parameters*
+
+3. **Data Preprocessing** - *Missing value imputation strategies, robust scaling for outlier handling, categorical encoding, train-test split with temporal considerations, feature selection optimization*
+
+4. **Model Training & Hyperparameter Tuning** - *Baseline mean model, CatBoost regression (iterations 20-200), LightGBM with early stopping, systematic hyperparameter optimization, cross-validation*
+
+5. **Model Evaluation & Feature Importance** - *Performance comparison (MAE/RMSE/R²), feature importance analysis using gain-based metrics, model interpretability, prediction accuracy assessment*
+
+#### Main Libraries Used
+
+- **pandas**: Data manipulation and merging multiple datasets
+- **numpy**: Numerical operations and statistical calculations
+- **matplotlib/seaborn**: Data visualization and distribution analysis
+- **scikit-learn**: Data preprocessing, scaling, and evaluation metrics
+- **catboost**: Gradient boosting regression with categorical feature handling
+- **lightgbm**: Advanced gradient boosting with early stopping
