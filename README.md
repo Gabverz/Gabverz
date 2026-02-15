@@ -123,8 +123,6 @@ I would suggest these few projects to start. Bellow, there is a brief step-by-st
 <details>
 <summary>Temperature prediction modelling</summary>
   
-<br>
-  
 ###  Steel Temperature Prediction - Industrial Process Optimization
 
 Direct link: [Temperature_prediction_modelling](https://github.com/Gabverz/Temperature_prediction_modelling)
@@ -212,6 +210,33 @@ Direct link: [Taxi_demandbyhour_forecast](https://github.com/Gabverz/Taxi_demand
 </details>
 
 <details>
-<summary>44444444444</summary>
+<summary>Movie Review Sentiment Analysis</summary>
 
-Direct link: [Taxi_demandbyhour_forecast](https://github.com/Gabverz/Taxi_demandbyhour_forecast)
+Direct link: [Moviereview_sentiment_classification](https://github.com/Gabverz/Moviereview_sentiment_classification)
+
+### Movie Review Sentiment Analysis - Film Junky Union
+
+#### Step-by-Step Execution
+
+1. **Data Loading & Exploratory Analysis** - *IMDB dataset loading (47,331 reviews), data distribution analysis, temporal trends visualization, rating distribution assessment, train-test split validation*
+
+2. **Text Preprocessing & Normalization** - *Text cleaning with regex patterns, NLTK tokenization and lemmatization, stopwords removal, lowercase conversion, punctuation elimination, normalized text creation*
+
+3. **Feature Engineering & Vectorization** - *TF-IDF vectorization implementation, spaCy text preprocessing pipeline, feature matrix creation, dimensionality handling, vocabulary optimization for ML models*
+
+4. **Model Training & Comparison** - *Dummy classifier baseline, Logistic Regression with TF-IDF, LightGBM classifier training, BERT embeddings extraction, hyperparameter configuration, model fitting*
+
+5. **Model Evaluation & Performance Analysis** - *F1-score calculation, ROC-AUC assessment, precision-recall curves, accuracy measurement, threshold optimization, comparative performance analysis*
+
+#### Main Libraries Used
+
+- **pandas**: Data manipulation and comprehensive dataset analysis
+- **numpy**: Numerical operations and statistical calculations
+- **matplotlib/seaborn**: Data visualization and performance plotting
+- **nltk**: Natural language processing and text tokenization
+- **scikit-learn**: Machine learning models and evaluation metrics
+- **spacy**: Advanced text preprocessing and lemmatization
+- **lightgbm**: Gradient boosting classification algorithms
+- **transformers/torch**: BERT model implementation and embeddings
+
+</details>
