@@ -111,6 +111,14 @@ Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in
   style="padding-right: 10px;"
   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/minitab/minitab-plain.svg"
 />
+<img
+  align="left"
+  alt="PyTorch"
+  title="PyTorch"
+  width="40px"
+  style="padding-right: 10px;"
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
+/>
 </p>
 <br>
 
@@ -237,6 +245,6 @@ Direct link: [Moviereview_sentiment_classification](https://github.com/Gabverz/M
 - **scikit-learn**: Machine learning models and evaluation metrics
 - **spacy**: Advanced text preprocessing and lemmatization
 - **lightgbm**: Gradient boosting classification algorithms
-- **transformers/torch**: BERT model implementation and embeddings
+- **transformers/PyTorch**: BERT model implementation and embeddings
 
 </details>
