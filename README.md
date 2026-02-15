@@ -126,7 +126,7 @@ Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in
 
 ### Where to start?
 
-I would suggest these few projects to start. Bellow, there is a brief step-by-step of the solution.
+I would suggest these few projects to look up first. They are good examples of my studies, developments and deliveries. Bellow, there is a brief step-by-step of the solution for each one.
 
 <details>
 <summary>Temperature prediction modelling</summary>
