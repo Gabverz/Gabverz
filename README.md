@@ -127,6 +127,8 @@ I would suggest these few projects to start. Bellow, there is a brief step-by-st
   
 ###  Steel Temperature Prediction - Industrial Process Optimization
 
+Direct link: [Temperature_prediction_modelling](https://github.com/Gabverz/Temperature_prediction_modelling)
+
 #### Step-by-Step Execution
 
 1. **Data Integration & Feature Engineering** - *Multi-dataset merging (7 sources), statistical aggregation (mean/max/min/sum), energy consumption calculations using physics formulas, time-series feature extraction*
@@ -147,3 +149,35 @@ I would suggest these few projects to start. Bellow, there is a brief step-by-st
 - **scikit-learn**: Data preprocessing, scaling, and evaluation metrics
 - **catboost**: Gradient boosting regression with categorical feature handling
 - **lightgbm**: Advanced gradient boosting with early stopping
+
+</details>
+
+<details>
+<summary>Video Game Market Analysis</summary>
+
+Direct link: [Videogame_market_datadriven_decision](https://github.com/Gabverz/Videogame_market_datadriven_decision)
+
+## Step-by-Step Execution
+
+1. **Data Preprocessing & Feature Engineering** - *Missing value treatment (1.6% year_of_release removal), data type conversion, column standardization (snake_case), total_sales calculation, critic_score normalization*
+
+2. **Exploratory Data Analysis & Market Trends** - *Time series analysis (1980-2016), platform lifecycle identification, sales distribution analysis, outlier detection using boxplots, market share evolution tracking*
+
+3. **Scope Definition & Platform Analysis** - *Relevant period selection (2014-2016), platform performance comparison, correlation analysis (critic_score vs sales), top-selling games identification, genre popularity assessment*
+
+4. **Regional Market Segmentation** - *North America, Europe, and Japan market analysis, platform preferences by region, genre distribution comparison, ESRB rating impact assessment, regional market share calculation*
+
+5. **Statistical Hypothesis Testing** - *Two-sample t-tests implementation, Xbox One vs PC user ratings comparison, Action vs Sports genre ratings analysis, statistical significance evaluation (α=0.05)*
+
+## Main Libraries Used
+
+- **pandas**: Data manipulation and comprehensive dataset analysis
+- **numpy**: Numerical operations and statistical calculations
+- **matplotlib**: Data visualization and trend analysis charts
+- **scipy.stats**: Statistical hypothesis testing and t-test implementation
+
+</details>
+
+<summary>3333333333</summary>
+
+Direct link: [Videogame_market_datadriven_decision](https://github.com/Gabverz/Videogame_market_datadriven_decision)
