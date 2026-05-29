@@ -1,14 +1,22 @@
 <h1 align="center">Gabriel Veras</h1>
-<h3 align="center">Data Scientist & Machine Learning Engineer 🚀</h3>
+<h3 align="center">Data Science & Analytics | Python · SQL · Power BI · Machine Learning</h3>
 
-Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in Recife, Brazil and I am a bachelor in Chemical Engineering. After 7 years acting in multi-national companies in this field, I have decided to pursue my goal to be a Data Scientist. I wish to bring my engineering and corporate background into generating value for people all over the world. Please, feel free to add to the projects here!
+Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in Recife, Brazil and I am a bachelor in Chemical Engineering. After 8 years acting in multi-national companies in this field, I have decided to pursue my goal to be a Data Scientist. I wish to bring my engineering and corporate background into generating value for people all over the world. Please, feel free to add to the projects here!
 
 📊 About Me
 
- Highly analytical and detail-oriented Data Scientist with a strong foundation in Python, Machine Learning and Statistical Analysis. I specialize in building end-to-end pipelines—from messy data preprocessing to high-performance predictive models—with a focus on driving operational efficiency and business value. 
+Data Scientist with an engineering background and 8+ years of experience
+in industrial environments (chemicals and coatings). I build analytical solutions from raw
+data to production-ready output: ETL pipelines in Python and SQL, Power BI dashboards,
+exploratory data analysis, statistical modeling, and supervised learning — classification,
+regression, and time series forecasting.
+
+My industrial background reinforces these skills through KPI governance, report automation,
+and data-driven decision-making that supported measurable improvements in capacity, quality,
+and energy efficiency. I also bring strong communication and problem-solving skills developed
+while coordinating teams of ~60 people in complex operational environments.
 
 ---
-
 ### 🛠 Technical Core Competencies
 
 🤖 **Machine Learning & Predictive Modeling:** Implementing advanced algorithms (CatBoost, LightGBM, Random Forest) to forecast trends and optimize processes.
@@ -27,7 +35,7 @@ Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in
 
 - 👨‍💻 All of my projects are available at [https://github.com/Gabverz](https://github.com/Gabverz)
 
-- 📫 How to reach me **gabriel.veras40@gmail.com**
+- 📫 How to reach me **gabrielveras.dev@gmail.com**
 
 ---
 
@@ -119,6 +127,22 @@ Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in
   style="padding-right: 10px;"
   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
 />
+ <img 
+  align="left" 
+  alt="AWS" 
+  title="AWS" 
+  width="40px" 
+  style="padding-right:10px;"
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+  />
+<img align="left" alt="Git" title="Git" width="40px" style="padding-right:10px;"
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
+<img align="left" alt="GitHub" title="GitHub" width="40px" style="padding-right:10px;"
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"/>
+<img align="left" alt="Jupyter" title="Jupyter" width="40px" style="padding-right:10px;"
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg"/>
+<img align="left" alt="VS Code" title="VS Code" width="40px" style="padding-right:10px;"
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"/>
 </p>
 <br>
 
@@ -129,53 +153,149 @@ Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in
 I would suggest these few projects to look up first. They are good examples of my studies, developments and deliveries. Bellow, there is a brief step-by-step of the solution for each one.
 
 <details>
-<summary>Temperature prediction modelling</summary>
-  
-###  Steel Temperature Prediction - Industrial Process Optimization
+<summary>📦 Delivery Delay Prediction — NLP & Machine Learning (Logistics Optimizer)</summary>
 
-Direct link: [Temperature_prediction_modelling](https://github.com/Gabverz/Temperature_prediction_modelling)
+### Delivery Delay Prediction — E-commerce Logistics
+
+Direct link: [Logistics_optimizer](https://github.com/Gabverz/Logistics_optimizer)
+
+End-to-end ML pipeline for binary classification of delivery delays across 110k e-commerce
+orders (Olist dataset), integrating logistics, geographic, temporal, and NLP features.
 
 #### Step-by-Step Execution
 
-1. **Data Integration & Feature Engineering** - *Multi-dataset merging (7 sources), statistical aggregation (mean/max/min/sum), energy consumption calculations using physics formulas, time-series feature extraction*
+1. **Data Integration & Feature Engineering** — *Multi-table merging, engineered features
+   such as seller dispatch window, km per estimated day, and seller historical late rate.
+   Parquet persistence and Git/GitHub versioning.*
 
-2. **Exploratory Data Analysis** - *Outlier detection using boxplots/histograms, distribution analysis, data quality assessment, missing value pattern identification, correlation analysis between process parameters*
+2. **NLP Processing** — *Portuguese BERT embeddings (BERTimbau) with SVD dimensionality
+   reduction; TF-IDF vectorization for baseline NLP features.*
 
-3. **Data Preprocessing** - *Missing value imputation strategies, robust scaling for outlier handling, categorical encoding, train-test split with temporal considerations, feature selection optimization*
+3. **Model Training & Optimization** — *LightGBM classifier optimized with Optuna,
+   achieving Recall > 0.69 on the test set.*
 
-4. **Model Training & Hyperparameter Tuning** - *Baseline mean model, CatBoost regression (iterations 20-200), LightGBM with early stopping, systematic hyperparameter optimization, cross-validation*
-
-5. **Model Evaluation & Feature Importance** - *Performance comparison (MAE/RMSE/R²), feature importance analysis using gain-based metrics, model interpretability, prediction accuracy assessment*
+4. **Reporting & Visualization** — *Power BI dashboard for delay risk visualization
+   by seller, region, and time period, supporting data-driven operational decisions.*
 
 #### Main Libraries Used
 
-- **pandas**: Data manipulation and merging multiple datasets
-- **numpy**: Numerical operations and statistical calculations
-- **matplotlib/seaborn**: Data visualization and distribution analysis
-- **scikit-learn**: Data preprocessing, scaling, and evaluation metrics
-- **catboost**: Gradient boosting regression with categorical feature handling
-- **lightgbm**: Advanced gradient boosting with early stopping
+- **pandas / numpy**: Data manipulation and feature engineering
+- **scikit-learn**: Preprocessing, evaluation metrics, SVD
+- **lightgbm / optuna**: Classification model and hyperparameter tuning
+- **transformers / PyTorch**: BERTimbau embeddings
+- **Power BI**: Dashboard development
 
 </details>
 
+---
+
 <details>
-<summary>Video Game Market Analysis</summary>
+<summary>🌡️ Steel Temperature Prediction — Industrial Process Optimization</summary>
+
+### Steel Temperature Prediction — Industrial Process Optimization
+
+Direct link: [Temperature_prediction_modelling](https://github.com/Gabverz/Temperature_prediction_modelling)
+
+Regression modeling for prediction of final steel temperature in a 100-ton ladle furnace,
+supporting energy consumption optimization in industrial steel production.
+
+#### Step-by-Step Execution
+
+1. **Data Integration & Feature Engineering** — *Multi-dataset merging (7 sources),
+   statistical aggregation (mean/max/min/sum), energy consumption calculations using
+   physics formulas, time-series feature extraction.*
+
+2. **Exploratory Data Analysis** — *Outlier detection, distribution analysis, missing
+   value pattern identification, correlation analysis between process parameters.*
+
+3. **Data Preprocessing** — *Missing value imputation, robust scaling, categorical
+   encoding, train-test split with temporal considerations.*
+
+4. **Model Training & Hyperparameter Tuning** — *CatBoost and LightGBM regression
+   with systematic hyperparameter optimization, achieving R² > 0.95.*
+
+5. **Model Evaluation** — *Performance comparison (MAE/RMSE/R²), feature importance
+   analysis, identification of key process drivers (energy consumed, active power,
+   prior temperature readings).*
+
+#### Main Libraries Used
+
+- **pandas / numpy**: Data manipulation and merging multiple datasets
+- **matplotlib / seaborn**: Data visualization and distribution analysis
+- **scikit-learn**: Preprocessing, scaling, and evaluation metrics
+- **catboost / lightgbm**: Gradient boosting regression models
+
+</details>
+
+---
+
+<details>
+<summary>🚕 Taxi Demand Forecasting — Time Series & Operational Planning</summary>
+
+### Taxi Demand Forecasting — Sweet Lift Taxi Company
+
+Direct link: [Taxi_demandbyhour_forecast](https://github.com/Gabverz/Taxi_demandbyhour_forecast)
+
+Time series forecasting system for hourly taxi demand at an airport, enabling data-driven
+driver allocation and operational planning.
+
+#### Step-by-Step Execution
+
+1. **Time Series Preparation** — *CSV data loading with datetime indexing, hourly
+   resampling using sum aggregation, missing value assessment.*
+
+2. **EDA & Seasonality Detection** — *Rolling mean (24-hour window), seasonal
+   decomposition, trend and seasonality pattern identification.*
+
+3. **Feature Engineering** — *Datetime feature extraction (year/month/day/hour/dayofweek),
+   lag features (lag_1 to lag_9), rolling statistics.*
+
+4. **Model Training & Optimization** — *Linear Regression baseline, CatBoost and LightGBM
+   optimization — LightGBM selected as final model (RMSE 12.5% below threshold,
+   440ms training time).*
+
+5. **Model Evaluation** — *RMSE/MSE/R² comparison, execution time measurement,
+   final predictions validation.*
+
+#### Main Libraries Used
+
+- **pandas**: Time series data manipulation and resampling
+- **numpy**: Numerical computations and statistical calculations
+- **matplotlib**: Time series visualization and trend plotting
+- **statsmodels**: Seasonal decomposition and time series analysis
+- **scikit-learn**: Train-test split, evaluation metrics, Linear Regression
+- **catboost / lightgbm**: Gradient boosting with early stopping
+
+</details>
+
+---
+
+<details>
+<summary>🎮 Video Game Market Analysis — Data-Driven Decision Making</summary>
 
 ### Video Game Market Analysis
 
 Direct link: [Videogame_market_datadriven_decision](https://github.com/Gabverz/Videogame_market_datadriven_decision)
 
+Market analysis of global video game sales data to identify patterns, platform lifecycles,
+and regional preferences, supporting data-driven business decisions.
+
 #### Step-by-Step Execution
 
-1. **Data Preprocessing & Feature Engineering** - *Missing value treatment (1.6% year_of_release removal), data type conversion, column standardization (snake_case), total_sales calculation, critic_score normalization*
+1. **Data Preprocessing & Feature Engineering** — *Missing value treatment, data type
+   conversion, column standardization (snake_case), total_sales calculation.*
 
-2. **Exploratory Data Analysis & Market Trends** - *Time series analysis (1980-2016), platform lifecycle identification, sales distribution analysis, outlier detection using boxplots, market share evolution tracking*
+2. **EDA & Market Trends** — *Time series analysis (1980–2016), platform lifecycle
+   identification, sales distribution analysis, market share evolution tracking.*
 
-3. **Scope Definition & Platform Analysis** - *Relevant period selection (2014-2016), platform performance comparison, correlation analysis (critic_score vs sales), top-selling games identification, genre popularity assessment*
+3. **Scope Definition & Platform Analysis** — *Relevant period selection (2014–2016),
+   platform performance comparison, correlation analysis (critic_score vs sales).*
 
-4. **Regional Market Segmentation** - *North America, Europe, and Japan market analysis, platform preferences by region, genre distribution comparison, ESRB rating impact assessment, regional market share calculation*
+4. **Regional Market Segmentation** — *North America, Europe, and Japan market analysis,
+   platform and genre preferences by region, ESRB rating impact assessment.*
 
-5. **Statistical Hypothesis Testing** - *Two-sample t-tests implementation, Xbox One vs PC user ratings comparison, Action vs Sports genre ratings analysis, statistical significance evaluation (α=0.05)*
+5. **Statistical Hypothesis Testing** — *Two-sample t-tests, Xbox One vs PC user ratings
+   comparison, Action vs Sports genre analysis (α = 0.05).*
 
 #### Main Libraries Used
 
@@ -186,65 +306,4 @@ Direct link: [Videogame_market_datadriven_decision](https://github.com/Gabverz/V
 
 </details>
 
-<details>
-<summary>Taxi Demand Prediction</summary>
-
-Direct link: [Taxi_demandbyhour_forecast](https://github.com/Gabverz/Taxi_demandbyhour_forecast)
-
-### Taxi Demand Prediction - Sweet Lift Taxi Company
-
-#### Step-by-Step Execution
-
-1. **Data Preprocessing & Time Series Preparation** - *CSV data loading with datetime indexing, hourly resampling using sum aggregation, data sorting and formatting, missing value assessment, statistical summary analysis*
-
-2. **Exploratory Data Analysis & Seasonality Detection** - *Rolling mean calculation (24-hour window), seasonal decomposition analysis, trend identification, seasonality pattern recognition, residual analysis for time series components*
-
-3. **Feature Engineering & Lag Variables Creation** - *Datetime feature extraction (year/month/day/hour/dayofweek), lag feature creation (1-9 periods), rolling statistics computation, feature matrix preparation for ML models*
-
-4. **Model Training & Hyperparameter Optimization** - *Linear Regression baseline, CatBoost iterations tuning (100-1000), LightGBM parameter optimization (num_leaves: 20-60, num_rounds: 100-300), early stopping implementation*
-
-5. **Model Evaluation & Performance Comparison** - *RMSE/MSE calculation, R² score assessment, execution time measurement, best model selection based on performance metrics, final predictions validation*
-
-#### Main Libraries Used
-
-- **pandas**: Time series data manipulation and resampling operations
-- **numpy**: Numerical computations and statistical calculations
-- **matplotlib**: Time series visualization and trend plotting
-- **statsmodels**: Seasonal decomposition and time series analysis
-- **scikit-learn**: Train-test split, evaluation metrics, and Linear Regression
-- **catboost**: Gradient boosting regression with categorical features support
-- **lightgbm**: Advanced gradient boosting with early stopping mechanisms
-
-</details>
-
-<details>
-<summary>Movie Review Sentiment Analysis</summary>
-
-Direct link: [Moviereview_sentiment_classification](https://github.com/Gabverz/Moviereview_sentiment_classification)
-
-### Movie Review Sentiment Analysis - Film Junky Union
-
-#### Step-by-Step Execution
-
-1. **Data Loading & Exploratory Analysis** - *IMDB dataset loading (47,331 reviews), data distribution analysis, temporal trends visualization, rating distribution assessment, train-test split validation*
-
-2. **Text Preprocessing & Normalization** - *Text cleaning with regex patterns, NLTK tokenization and lemmatization, stopwords removal, lowercase conversion, punctuation elimination, normalized text creation*
-
-3. **Feature Engineering & Vectorization** - *TF-IDF vectorization implementation, spaCy text preprocessing pipeline, feature matrix creation, dimensionality handling, vocabulary optimization for ML models*
-
-4. **Model Training & Comparison** - *Dummy classifier baseline, Logistic Regression with TF-IDF, LightGBM classifier training, BERT embeddings extraction, hyperparameter configuration, model fitting*
-
-5. **Model Evaluation & Performance Analysis** - *F1-score calculation, ROC-AUC assessment, precision-recall curves, accuracy measurement, threshold optimization, comparative performance analysis*
-
-#### Main Libraries Used
-
-- **pandas**: Data manipulation and comprehensive dataset analysis
-- **numpy**: Numerical operations and statistical calculations
-- **matplotlib/seaborn**: Data visualization and performance plotting
-- **nltk**: Natural language processing and text tokenization
-- **scikit-learn**: Machine learning models and evaluation metrics
-- **spacy**: Advanced text preprocessing and lemmatization
-- **lightgbm**: Gradient boosting classification algorithms
-- **transformers/PyTorch**: BERT model implementation and embeddings
-
-</details>
+---
