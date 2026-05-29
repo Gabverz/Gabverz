@@ -19,18 +19,45 @@ while coordinating teams of ~60 people in complex operational environments.
 ---
 ### 🛠 Technical Core Competencies
 
-🤖 **Machine Learning & Predictive Modeling:** Implementing advanced algorithms (CatBoost, LightGBM, Random Forest) to forecast trends and optimize processes.
+**🔗 Data Analysis & Business Intelligence**
+- Extract, clean, and transform multi-source datasets using Python (pandas, NumPy)
+  and SQL, building reliable analytical pipelines from raw operational data
+  to structured outputs
+- Design and maintain Power BI dashboards with DAX measures and calculated columns,
+  integrating data from SAP, SharePoint, and Excel to monitor KPIs, track deviations,
+  and support root cause analysis for leadership teams
+- Automate reporting workflows through VBA macros and MS Office/SAP integration,
+  reducing manual effort and improving data accuracy
 
-🔍 **Exploratory Data Analysis:** Uncovering hidden patterns, correlations, and anomalies through rigorous data investigation.
+**🤖 Machine Learning & Predictive Modeling**
+- Build end-to-end supervised learning pipelines for regression, classification,
+  and time series forecasting using scikit-learn, LightGBM, and CatBoost
+- Apply feature engineering techniques including lag variables, rolling statistics,
+  temporal aggregation, and domain-driven indicator creation to improve model performance
+- Tune hyperparameters systematically with Optuna and validate models using
+  appropriate metrics (R², RMSE, F1-score, ROC-AUC, Recall) depending on business context
 
-🛠️ **Data Preprocessing & Feature Engineering:** Transforming raw, fragmented datasets into high-quality features through aggregation, scaling, and temporal variable creation.
+**🧠 Natural Language Processing & Deep Learning**
+- Process and vectorize text data using TF-IDF, tokenization, and lemmatization
+  with NLTK and spaCy
+- Extract contextual embeddings with BERT-based models (HuggingFace transformers)
+  and apply SVD for dimensionality reduction in downstream ML tasks
+- Build and train neural network architectures using PyTorch
 
-📈 **Data Visualization:** Crafting intuitive dashboards and plots (Matplotlib, Seaborn, Streamlit) to translate complex metrics into actionable insights.
+**🔍 Exploratory Data Analysis & Statistics**
+- Investigate data quality, distributions, and correlations through systematic EDA,
+  identifying outliers, missing value patterns, and feature relationships
+  before model development
+- Apply hypothesis testing (t-tests, significance analysis) and statistical metrics
+  to validate assumptions and support data-driven decisions
 
-🛡️ **Data Security & Integrity:** Ensuring robust data handling practices, maintaining privacy, and verifying dataset reliability.
-
-🔢 **Applied Statistics:** Utilizing hypothesis testing, probability distributions, and regression metrics (such as $R^2$, $MAE$, and $RMSE$) to validate model performance.
-
+**☁️ Cloud & Dev Tools**
+- Version control with Git/GitHub, including modular project structuring,
+  commit discipline, and documentation
+- Proficient in Jupyter Notebook and VS Code for development and analysis
+- Currently studying AWS fundamentals, with focus on cloud services
+  applicable to data storage and processing workflows
+  
 ---
 
 - 👨‍💻 All of my projects are available at [https://github.com/Gabverz](https://github.com/Gabverz)
