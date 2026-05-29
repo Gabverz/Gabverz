@@ -1,22 +1,37 @@
 <h1 align="center">Gabriel Veras</h1>
 <h3 align="center">Data Science & Analytics | Python · SQL · Power BI · Machine Learning</h3>
 
-Hello! Thank you for acessing my GitHub. My name is Gabriel Veras, I was born in Recife, Brazil and I am a bachelor in Chemical Engineering. After 8 years acting in multi-national companies in this field, I have decided to pursue my goal to be a Data Scientist. I wish to bring my engineering and corporate background into generating value for people all over the world. Please, feel free to add to the projects here!
+---
 
-📊 About Me
+## 📊 About Me
 
-Data Scientist with an engineering background and 8+ years of experience
-in industrial environments (chemicals and coatings). I build analytical solutions from raw
-data to production-ready output: ETL pipelines in Python and SQL, Power BI dashboards,
-exploratory data analysis, statistical modeling, and supervised learning — classification,
-regression, and time series forecasting.
+Data Scientist and Data Analyst with an engineering background and 8+ years
+of experience in industrial environments (chemicals and coatings). I build
+analytical solutions from raw data to production-ready output: ETL pipelines
+in Python and SQL, Power BI dashboards with DAX, exploratory data analysis,
+statistical modeling, and supervised learning — classification, regression,
+and time series forecasting — always focused on translating technical results
+into clear, actionable insights for stakeholders and leadership.
 
-My industrial background reinforces these skills through KPI governance, report automation,
-and data-driven decision-making that supported measurable improvements in capacity, quality,
-and energy efficiency. I also bring strong communication and problem-solving skills developed
-while coordinating teams of ~60 people in complex operational environments.
+My industrial background reinforces these skills through KPI governance,
+report automation, and data-driven decision-making that supported measurable
+improvements in capacity, quality, and energy efficiency. In parallel, I
+developed strong communication and problem-solving skills while coordinating
+teams of approximately 60 people across two production plants in complex
+operational environments.
+
+I graduated in Chemical Engineering (UFPE) and recently wrapped up
+a 9-month Data Science Bootcamp at TripleTen Brasil — where I got
+hands-on with end-to-end ML projects in time series forecasting,
+regression, NLP-based classification, and predictive modeling.
+Right now, I'm working through AWS fundamentals to keep building
+on the cloud side of things.
+
+Feel free to explore the projects below — feedback and suggestions are always
+welcome!
 
 ---
+
 ### 🛠 Technical Core Competencies
 
 **🔗 Data Analysis & Business Intelligence**
