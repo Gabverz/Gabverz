@@ -9,8 +9,8 @@ Data Scientist and Data Analyst with an engineering background and 8+ years
 of experience in industrial environments (chemicals and coatings). My tech skills 
 combine Power BI, DAX, Python, SQL and ETL with real-world machine learning 
 projects — demand forecasting, predictive models with R² > 0.95, and NLP-based 
-classification. At BASF and Sherwin-Williams, I automated data pipelines, reduced 
-reporting time by 25%, and accelerated operational analysis by up to 90%.
+classification. In multi-national companies industrial sites, I automated data pipelines, 
+reduced reporting time by 25%, and accelerated operational analysis by up to 90%.
 
 My industrial background reinforces these skills through KPI governance,
 report automation, and data-driven decision-making that supported measurable
