@@ -6,12 +6,11 @@
 ## 📊 About Me
 
 Data Scientist and Data Analyst with an engineering background and 8+ years
-of experience in industrial environments (chemicals and coatings). I build
-analytical solutions from raw data to production-ready output: ETL pipelines
-in Python and SQL, Power BI dashboards with DAX, exploratory data analysis,
-statistical modeling, and supervised learning — classification, regression,
-and time series forecasting — always focused on translating technical results
-into clear, actionable insights for stakeholders and leadership.
+of experience in industrial environments (chemicals and coatings). My tech skills 
+combine Power BI, DAX, Python, SQL and ETL with real-world machine learning 
+projects — demand forecasting, predictive models with R² > 0.95, and NLP-based 
+classification. At BASF and Sherwin-Williams, I automated data pipelines, reduced 
+reporting time by 25%, and accelerated operational analysis by up to 90%.
 
 My industrial background reinforces these skills through KPI governance,
 report automation, and data-driven decision-making that supported measurable
