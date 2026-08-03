@@ -306,38 +306,30 @@ driver allocation and operational planning.
 ---
 
 <details>
-<summary>🎮 Video Game Market Analysis — Data-Driven Decision Making</summary>
+<summary> 💰 Credit Risk Predictor — Financial Services</summary>
 
-### Video Game Market Analysis
+### Credit Risk Predictor — Financial Services
 
-Direct link: [Videogame_market_datadriven_decision](https://github.com/Gabverz/Videogame_market_datadriven_decision)
+Direct link: [datarisk-case-ds-junior](https://github.com/Gabverz/datarisk-case-ds-junior)
 
-Market analysis of global video game sales data to identify patterns, platform lifecycles,
-and regional preferences, supporting data-driven business decisions.
+End-to-end machine learning pipeline for predicting monthly payment defaults, defined as **5 days or more after the due date**, across customer charges. This solution integrates historical payment behavior, customer registration data, and monthly financial information to provide continuous probability scores, enabling proactive credit risk management strategies.
 
 #### Step-by-Step Execution
 
-1. **Data Preprocessing & Feature Engineering** — *Missing value treatment, data type
-   conversion, column standardization (snake_case), total_sales calculation.*
+1.  **Data Integration & Feature Engineering** — *Multi-source data merging, engineered features such as historical default rate (`TAXA_HISTORICA_INADIMPLENCIA`), customer relationship duration, and temporal indicators. Robust handling of data inconsistencies and cold-start clients.*
 
-2. **EDA & Market Trends** — *Time series analysis (1980–2016), platform lifecycle
-   identification, sales distribution analysis, market share evolution tracking.*
+2.  **Model Training & Optimization** — *XGBoost classifier optimized with Optuna (Bayesian search) using a temporal train/validation split, achieving an AUC-PR of 0.59 on the validation set.*
 
-3. **Scope Definition & Platform Analysis** — *Relevant period selection (2014–2016),
-   platform performance comparison, correlation analysis (critic_score vs sales).*
+3.  **Performance Evaluation & Interpretation** — *Focused on AUC-PR for imbalanced classes, analyzed feature importance (XGBoost Gain) to identify key drivers of default, and provided actionable insights for targeted interventions.*
 
-4. **Regional Market Segmentation** — *North America, Europe, and Japan market analysis,
-   platform and genre preferences by region, ESRB rating impact assessment.*
-
-5. **Statistical Hypothesis Testing** — *Two-sample t-tests, Xbox One vs PC user ratings
-   comparison, Action vs Sports genre analysis (α = 0.05).*
+4.  **Prediction Generation** — *Applied the final optimized model to generate default probability scores for new, unseen charges, enabling proactive credit risk management.*
 
 #### Main Libraries Used
 
-- **pandas**: Data manipulation and comprehensive dataset analysis
-- **numpy**: Numerical operations and statistical calculations
-- **matplotlib**: Data visualization and trend analysis charts
-- **scipy.stats**: Statistical hypothesis testing and t-test implementation
+-   **pandas / numpy**: Data manipulation and feature engineering
+-   **scikit-learn**: Preprocessing, evaluation metrics
+-   **xgboost / optuna**: Classification model and hyperparameter tuning
+-   **matplotlib / seaborn**: Data visualization
 
 </details>
 
