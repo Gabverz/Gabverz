@@ -185,110 +185,114 @@ welcome!
 
 ### Where to start?
 
-I would suggest these few projects to look up first. They are good examples of my studies, developments and deliveries. Bellow, there is a brief step-by-step of the solution for each one.
+These three projects showcase my approach to applied data science: combining domain knowledge, data preparation, feature engineering, model evaluation, and business-oriented communication. Expand each section for a brief overview of the problem, technical approach, and results.
 
 <details>
-<summary>📦 Delivery Delay Prediction — NLP & Machine Learning (Logistics Optimizer)</summary>
+<summary>📦 Delivery Delay Prediction — Machine Learning & Operational Analytics</summary>
 
 ### Delivery Delay Prediction — E-commerce Logistics
 
 Direct link: [Logistics_optimizer](https://github.com/Gabverz/Logistics_optimizer)
 
-End-to-end ML pipeline for binary classification of delivery delays across 110k e-commerce
-orders (Olist dataset), integrating logistics, geographic, temporal, and NLP features.
+Machine learning workflow for classifying delivery delays using approximately 110,000 e-commerce orders from the Olist dataset. The final LightGBM model uses logistics, geographic, temporal, and seller-history features. NLP experiments were conducted separately and excluded from the final predictive model to prevent temporal leakage.
 
 #### Step-by-Step Execution
 
-1. **Data Integration & Feature Engineering** — *Multi-table merging, engineered features
-   such as seller dispatch window, km per estimated day, and seller historical late rate.
-   Parquet persistence and Git/GitHub versioning.*
+1. **Data Integration & Feature Engineering** — Merged multiple tables and engineered operational features, including seller dispatch window, distance per estimated delivery day, and seller historical late rate. Persisted processed datasets in Parquet format and versioned the project with Git/GitHub.
 
-2. **NLP Processing** — *Portuguese BERT embeddings (BERTimbau) with SVD dimensionality
-   reduction; TF-IDF vectorization for baseline NLP features.*
+2. **NLP Experimentation & Leakage Assessment** — Explored Portuguese customer-review representations using BERTimbau embeddings with SVD dimensionality reduction and TF-IDF vectorization. Excluded review-derived NLP features from the final model because they were not available at the intended prediction point.
 
-3. **Model Training & Optimization** — *LightGBM classifier optimized with Optuna,
-   achieving Recall > 0.69 on the test set.*
+3. **Model Training & Optimization** — Trained a LightGBM classifier and optimized its hyperparameters with Optuna. Achieved recall of approximately **0.69** and precision of **0.22**, illustrating the trade-off between detecting delayed deliveries and generating false-positive alerts.
 
-4. **Reporting & Visualization** — *Power BI dashboard for delay risk visualization
-   by seller, region, and time period, supporting data-driven operational decisions.*
+4. **Model Interpretation & Visualization** — Used SHAP to examine influential predictors and developed a Power BI dashboard to explore delivery-delay risk by seller, region, and time period.
 
-#### Main Libraries Used
+#### Business Relevance
 
-- **pandas / numpy**: Data manipulation and feature engineering
-- **scikit-learn**: Preprocessing, evaluation metrics, SVD
-- **lightgbm / optuna**: Classification model and hyperparameter tuning
-- **transformers / PyTorch**: BERTimbau embeddings
+Explores how delivery-risk estimates can support operational prioritization and logistics monitoring. The precision–recall trade-off highlights the need to select decision thresholds according to the cost and capacity of each intervention.
+
+#### Tools & Technologies
+
+- **pandas / NumPy**: Data preparation and feature engineering
+- **scikit-learn**: Preprocessing, evaluation metrics, and dimensionality reduction
+- **LightGBM / Optuna**: Classification and hyperparameter optimization
+- **SHAP**: Model interpretation
+- **Transformers / PyTorch / BERTimbau**: NLP experiments, excluded from the final model
 - **Power BI**: Dashboard development
+- **Git / GitHub / Parquet**: Version control and processed-data storage
 
 </details>
 
 ---
 
 <details>
-<summary>🌡️ Steel Temperature Prediction — Industrial Process Optimization</summary>
+<summary>🌡️ Steel Temperature Prediction — Industrial Process Analytics</summary>
 
-### Steel Temperature Prediction — Industrial Process Optimization
+### Steel Temperature Prediction — Energy-Efficiency Decision Support
 
 Direct link: [Temperature_prediction_modelling](https://github.com/Gabverz/Temperature_prediction_modelling)
 
-Regression modeling for prediction of final steel temperature in a 100-ton ladle furnace,
-supporting energy consumption optimization in industrial steel production.
+Regression modeling to predict final steel temperature in a 100-ton ladle furnace. The project combines seven industrial data sources, process-based feature engineering, and gradient boosting models to support temperature analysis and investigate energy-efficiency opportunities.
 
 #### Step-by-Step Execution
 
-1. **Data Integration & Feature Engineering** — *Multi-dataset merging (7 sources),
-   statistical aggregation (mean/max/min/sum), energy consumption calculations using
-   physics formulas, time-series feature extraction.*
+1. **Data Integration & Feature Engineering** — Consolidated seven datasets by production batch. Created statistical aggregations, including mean, maximum, minimum, and sum; calculated energy-related features using physical relationships; and extracted process-duration variables.
 
-2. **Exploratory Data Analysis** — *Outlier detection, distribution analysis, missing
-   value pattern identification, correlation analysis between process parameters.*
+2. **Exploratory Data Analysis** — Investigated outliers, distributions, missing-value patterns, and correlations between process measurements and final temperature.
 
-3. **Data Preprocessing** — *Missing value imputation, robust scaling, categorical
-   encoding, train-test split with temporal considerations.*
+3. **Data Preprocessing** — Prepared the modeling dataset through missing-value treatment, data-type conversion, and feature preprocessing, including scaling and categorical encoding where applicable. Considered temporal aspects when separating training and evaluation data.
 
-4. **Model Training & Hyperparameter Tuning** — *CatBoost and LightGBM regression
-   with systematic hyperparameter optimization, achieving R² > 0.95.*
+4. **Model Training & Hyperparameter Tuning** — Developed and tuned CatBoost and LightGBM regression models, achieving a reported **R² above 0.95**.
 
-5. **Model Evaluation** — *Performance comparison (MAE/RMSE/R²), feature importance
-   analysis, identification of key process drivers (energy consumed, active power,
-   prior temperature readings).*
+5. **Model Evaluation & Interpretation** — Compared performance using MAE, RMSE, and R². Examined feature importance to identify influential predictors, including energy consumed, active power, and previous temperature readings.
 
-#### Main Libraries Used
+#### Business Relevance
 
-- **pandas / numpy**: Data manipulation and merging multiple datasets
-- **matplotlib / seaborn**: Data visualization and distribution analysis
-- **scikit-learn**: Preprocessing, scaling, and evaluation metrics
-- **catboost / lightgbm**: Gradient boosting regression models
+Provides a predictive foundation for investigating heating conditions and supporting process decisions. The project demonstrates temperature-modeling performance; it does not claim a measured reduction in energy consumption or production costs.
+
+#### Tools & Technologies
+
+- **pandas / NumPy**: Data integration, aggregation, and feature engineering
+- **matplotlib / seaborn**: Exploratory analysis and visualization
+- **scikit-learn**: Preprocessing and regression evaluation
+- **CatBoost / LightGBM**: Gradient boosting regression and hyperparameter tuning
 
 </details>
 
 ---
 
 <details>
-<summary> 💰 Credit Risk Predictor — Financial Services</summary>
+<summary>💰 Payment Default Prediction — Credit Risk Analytics</summary>
 
-### Credit Risk Predictor — Financial Services
+### Payment Default Prediction — Datarisk Technical Challenge
 
 Direct link: [datarisk-case-ds-junior](https://github.com/Gabverz/datarisk-case-ds-junior)
 
-End-to-end machine learning pipeline for predicting monthly payment defaults, defined as **5 days or more after the due date**, across customer charges. This solution integrates historical payment behavior, customer registration data, and monthly financial information to provide continuous probability scores, enabling proactive credit risk management strategies.
+Machine learning solution developed for a Datarisk junior data science technical challenge. The project estimates payment-default probabilities for monthly customer charges, with default defined as **payment at least five days past the due date**. It combines historical payment behavior, customer registration data, and monthly financial information.
 
 #### Step-by-Step Execution
 
-1.  **Data Integration & Feature Engineering** — *Multi-source data merging, engineered features such as historical default rate (`TAXA_HISTORICA_INADIMPLENCIA`), customer relationship duration, and temporal indicators. Robust handling of data inconsistencies and cold-start clients.*
+1. **Data Integration & Feature Engineering** — Combined multiple data sources and created behavioral and temporal predictors, including historical default rate (`TAXA_HISTORICA_INADIMPLENCIA`) and customer relationship duration. Addressed data inconsistencies and customers without prior payment history.
 
-2.  **Model Training & Optimization** — *XGBoost classifier optimized with Optuna (Bayesian search) using a temporal train/validation split, achieving an AUC-PR of 0.59 on the validation set.*
+2. **Temporal Validation & Model Comparison** — Used a chronological training/validation split to evaluate predictions on a later period. Compared LightGBM, XGBoost, and CatBoost, prioritizing AUC-PR for a target with approximately **7% default prevalence**.
 
-3.  **Performance Evaluation & Interpretation** — *Focused on AUC-PR for imbalanced classes, analyzed feature importance (XGBoost Gain) to identify key drivers of default, and provided actionable insights for targeted interventions.*
+3. **Hyperparameter Optimization** — Tuned models with Optuna and selected XGBoost, improving validation AUC-PR from approximately **0.50 to 0.5867**.
 
-4.  **Prediction Generation** — *Applied the final optimized model to generate default probability scores for new, unseen charges, enabling proactive credit risk management.*
+4. **Performance Evaluation & Interpretation** — Evaluated the selected model on the temporal validation set and examined XGBoost Gain feature importance. Historical default rate, regional information, and billing-related variables were among the influential predictors.
 
-#### Main Libraries Used
+5. **Prediction Generation** — Applied the selected model to unseen charges and generated a submission file containing charge-level default-probability scores.
 
--   **pandas / numpy**: Data manipulation and feature engineering
--   **scikit-learn**: Preprocessing, evaluation metrics
--   **xgboost / optuna**: Classification model and hyperparameter tuning
--   **matplotlib / seaborn**: Data visualization
+#### Business Relevance
+
+Risk scores can support the prioritization of customer outreach and collection activities. The reported performance comes from temporal validation; operational adoption would require assessing score calibration, intervention costs, and performance stability over time.
+
+#### Tools & Technologies
+
+- **pandas / NumPy**: Data preparation and feature engineering
+- **scikit-learn**: Preprocessing and classification evaluation
+- **XGBoost / LightGBM / CatBoost**: Model development and comparison
+- **Optuna**: Hyperparameter optimization
+- **matplotlib / seaborn**: Exploratory analysis and visualization
+- **Git / GitHub**: Version control and project documentation
 
 </details>
 
