@@ -47,6 +47,7 @@ welcome!
 ---
 
 - 👨‍💻 **Portfolio:** [Explore my projects](https://github.com/Gabverz)
+- 💼 **LinkedIn:** [Gabriel Veras](https://www.linkedin.com/in/gabriel-chaves-veras)
 - 📫 **Contact:** gabrielveras.dev@gmail.com
 
 ---
