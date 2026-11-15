@@ -12,19 +12,13 @@ projects — demand forecasting, predictive models with R² > 0.95, and NLP-base
 classification. In multi-national companies industrial sites, I automated data pipelines, 
 reduced reporting time by 25%, and accelerated operational analysis by up to 90%.
 
-My industrial background reinforces these skills through KPI governance,
-report automation, and data-driven decision-making that supported measurable
-improvements in capacity, quality, and energy efficiency. In parallel, I
-developed strong communication and problem-solving skills while coordinating
-teams of approximately 60 people across two production plants in complex
-operational environments.
+Working with about 60 people across two production plants taught me to listen before proposing a solution, explain technical work to very different audiences, and take ownership without leaving the team behind. That experience also produced concrete results: reporting automation that cut reporting time by 25%, and digital tools that made operational analysis up to 90% faster.
 
-I graduated in Chemical Engineering (UFPE) and recently wrapped up
-a 9-month Data Science Bootcamp at TripleTen Brasil — where I got
-hands-on with end-to-end ML projects in time series forecasting,
-regression, NLP-based classification, and predictive modeling.
-Right now, I'm working through AWS fundamentals to keep building
-on the cloud side of things.
+I like sharing what I learn, and I do my best work in teams where people from different backgrounds feel respected and comfortable speaking up. Good collaboration, for me, means honest feedback, room to question an idea with care, and space for more than the loudest voice in the room.
+
+I completed TripleTen Brasil's Data Science Bootcamp and I'm currently pursuing a postgraduate specialization in Data Science at UFPE. My portfolio explores logistics, industrial processes, and credit risk, always trying to connect technical work with a practical business question.
+
+I'm looking for a data team where curiosity, constructive feedback, and collaboration are part of everyday work. A year studying in Eindhoven strengthened my interest in international environments, and I'm open to remote opportunities as well as relocation.
 
 Feel free to explore the projects below — feedback and suggestions are always
 welcome!
@@ -33,50 +27,32 @@ welcome!
 
 ### 🛠 Technical Core Competencies
 
-**🔗 Data Analysis & Business Intelligence**
-- Extract, clean, and transform multi-source datasets using Python (pandas, NumPy)
-  and SQL, building reliable analytical pipelines from raw operational data
-  to structured outputs
-- Design and maintain Power BI dashboards with DAX measures and calculated columns,
-  integrating data from SAP, SharePoint, and Excel to monitor KPIs, track deviations,
-  and support root cause analysis for leadership teams
-- Automate reporting workflows through VBA macros and MS Office/SAP integration,
-  reducing manual effort and improving data accuracy
+**Data Analysis & Business Intelligence**
+- Python (pandas, NumPy), SQL, and exploratory data analysis.
+- Power BI, DAX, and Power Query for dashboards and KPI monitoring.
+- Reporting automation using VBA and SAP/Microsoft Office integration.
 
-**🤖 Machine Learning & Predictive Modeling**
-- Build end-to-end supervised learning pipelines for regression, classification,
-  and time series forecasting using scikit-learn, LightGBM, and CatBoost
-- Apply feature engineering techniques including lag variables, rolling statistics,
-  temporal aggregation, and domain-driven indicator creation to improve model performance
-- Tune hyperparameters systematically with Optuna and validate models using
-  appropriate metrics (R², RMSE, F1-score, ROC-AUC, Recall) depending on business context
+**Machine Learning & Analytical Decisions**
+- Classification, regression, and time series forecasting with scikit-learn,
+  LightGBM, CatBoost, and XGBoost.
+- Domain-informed feature engineering, temporal validation, leakage assessment,
+  and hyperparameter tuning with Optuna.
+- SHAP and feature importance to explain model behavior, with evaluation
+  guided by business trade-offs and clear communication of limitations.
 
-**🧠 Natural Language Processing & Deep Learning**
-- Process and vectorize text data using TF-IDF, tokenization, and lemmatization
-  with NLTK and spaCy
-- Extract contextual embeddings with BERT-based models (HuggingFace transformers)
-  and apply SVD for dimensionality reduction in downstream ML tasks
-- Build and train neural network architectures using PyTorch
+**NLP & Statistical Analysis**
+- Text preprocessing, TF-IDF, and BERTimbau embedding experiments.
+- Hypothesis testing, distribution analysis, and data-quality assessment.
 
-**🔍 Exploratory Data Analysis & Statistics**
-- Investigate data quality, distributions, and correlations through systematic EDA,
-  identifying outliers, missing value patterns, and feature relationships
-  before model development
-- Apply hypothesis testing (t-tests, significance analysis) and statistical metrics
-  to validate assumptions and support data-driven decisions
+**Development & Continuous Learning**
+- Git/GitHub, Jupyter Notebook, and VS Code.
+- Documented analytical workflows and methodological decisions.
+- Currently studying AWS fundamentals.
 
-**☁️ Cloud & Dev Tools**
-- Version control with Git/GitHub, including modular project structuring,
-  commit discipline, and documentation
-- Proficient in Jupyter Notebook and VS Code for development and analysis
-- Currently studying AWS fundamentals, with focus on cloud services
-  applicable to data storage and processing workflows
-  
 ---
 
-- 👨‍💻 All of my projects are available at [https://github.com/Gabverz](https://github.com/Gabverz)
-
-- 📫 How to reach me **gabrielveras.dev@gmail.com**
+- 👨‍💻 **Portfolio:** [Explore my projects](https://github.com/Gabverz)
+- 📫 **Contact:** gabrielveras.dev@gmail.com
 
 ---
 </p>
