@@ -265,47 +265,6 @@ supporting energy consumption optimization in industrial steel production.
 ---
 
 <details>
-<summary>🚕 Taxi Demand Forecasting — Time Series & Operational Planning</summary>
-
-### Taxi Demand Forecasting — Sweet Lift Taxi Company
-
-Direct link: [Taxi_demandbyhour_forecast](https://github.com/Gabverz/Taxi_demandbyhour_forecast)
-
-Time series forecasting system for hourly taxi demand at an airport, enabling data-driven
-driver allocation and operational planning.
-
-#### Step-by-Step Execution
-
-1. **Time Series Preparation** — *CSV data loading with datetime indexing, hourly
-   resampling using sum aggregation, missing value assessment.*
-
-2. **EDA & Seasonality Detection** — *Rolling mean (24-hour window), seasonal
-   decomposition, trend and seasonality pattern identification.*
-
-3. **Feature Engineering** — *Datetime feature extraction (year/month/day/hour/dayofweek),
-   lag features (lag_1 to lag_9), rolling statistics.*
-
-4. **Model Training & Optimization** — *Linear Regression baseline, CatBoost and LightGBM
-   optimization — LightGBM selected as final model (RMSE 12.5% below threshold,
-   440ms training time).*
-
-5. **Model Evaluation** — *RMSE/MSE/R² comparison, execution time measurement,
-   final predictions validation.*
-
-#### Main Libraries Used
-
-- **pandas**: Time series data manipulation and resampling
-- **numpy**: Numerical computations and statistical calculations
-- **matplotlib**: Time series visualization and trend plotting
-- **statsmodels**: Seasonal decomposition and time series analysis
-- **scikit-learn**: Train-test split, evaluation metrics, Linear Regression
-- **catboost / lightgbm**: Gradient boosting with early stopping
-
-</details>
-
----
-
-<details>
 <summary> 💰 Credit Risk Predictor — Financial Services</summary>
 
 ### Credit Risk Predictor — Financial Services
