@@ -5,12 +5,7 @@
 
 ## 📊 About Me
 
-Data Scientist and Data Analyst with an engineering background and 8+ years
-of experience in industrial environments (chemicals and coatings). My tech skills 
-combine Power BI, DAX, Python, SQL and ETL with real-world machine learning 
-projects — demand forecasting, predictive models with R² > 0.95, and NLP-based 
-classification. In multi-national companies industrial sites, I automated data pipelines, 
-reduced reporting time by 25%, and accelerated operational analysis by up to 90%.
+I'm a Data Scientist with a Chemical Engineering background and 7+ years in industrial environments. Most of what I like about the work comes down to the same thing — sitting with a messy problem, understanding it through data, and making it clearer for the people who have to act on it.
 
 Working with about 60 people across two production plants taught me to listen before proposing a solution, explain technical work to very different audiences, and take ownership without leaving the team behind. That experience also produced concrete results: reporting automation that cut reporting time by 25%, and digital tools that made operational analysis up to 90% faster.
 
